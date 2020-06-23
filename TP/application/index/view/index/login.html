@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1>后台管理系统</h1>
+    <p>
+        name<br/>
+    </p>
+
+    {volist name="name" id="data"}
+    <ul style="overflow: hidden;">
+        <li style="margin: 10px;float: left;">{$data.id}</li>
+        <li style="margin: 10px;float: left;">{$data.bofan_videoName}</li>
+        <li style="margin: 10px;float: left;">{$data.bofan_videoName}</li>
+        <li style="margin: 10px;float: left;">{$data.bofan_times}</li>
+        <li style="margin: 10px;float: left;">{$data.bofan_userid}</li>
+    </ul>
+    {/volist}
+    <p>
+
+        <a href="{:url('index/Index/index')}">首页</a>
+    </p>
+    {$name->render()}
+    <div>
+        账号：<input class="acc" type="text">
+    </div>
+    <div>
+        密码：<input class="pas" type="text">
+    </div>
+    <div>
+        验证码：<input class="test" type="text">
+        <!-- onclick="ChangeImg(this)"  -->
+        <div><img src="{:captcha_src()}" onclick="ChangeImg(this)" alt=""></div>
+    </div>
+    <div>
+        <button onclick="login()">登陆</button>
+    </div>
+    <script>
+        function ChangeImg(cli) {
+            $(cli).attr('src', '{:captcha_src()}?' + Math.random())
+        };
+
+        function login() {
+            var acc = $('.acc').val();
+            var pas = $('.pas').val();
+            var test = $('.test').val();
+
+            $.ajax({
+                url: "{:url('index/Index/loginTest')}",
+                data: {
+                    'acc': acc,
+                    'pas': pas,
+                    'test': test
+                },
+                type: "post",
+                dataType: 'JSON',
+                success: (res) => {
+                    console.log(res);
+                    location.href = "{:url('index/Index/user')}";
+                }
+            })
+        }
+    </script>
+</body>
+
+</html>

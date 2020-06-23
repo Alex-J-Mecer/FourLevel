@@ -1,0 +1,408 @@
+---------------------------------------------------------------
+[ 2020-06-19T10:57:44+08:00 ] 0.0.0.0 GET localhost/ThinkPHP/public/index/index/login.html
+[运行时间：0.582244s] [吞吐率：1.72req/s] [内存消耗：2,755.09kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5775308800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3947.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\phpstudy_pro\WWW\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\ThinkPHP\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.032230s ] mysql:host=127.0.0.1;port=3306;dbname=hx190918_video;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hx190918_bofan` [ RunTime:0.056142s ]
+[ sql ] [ SQL ] SELECT * FROM `hx190918_bofan` [ RunTime:0.000830s ]
+[ error ] [8]未定义变量: name[D:\phpstudy_pro\WWW\ThinkPHP\runtime\temp\30deff53b287bdc4f6b408972e9380df.php:18]
+---------------------------------------------------------------
+[ 2020-06-19T10:58:39+08:00 ] 0.0.0.0 GET localhost/ThinkPHP/public/index/index/index.html
+[运行时间：0.046366s] [吞吐率：21.57req/s] [内存消耗：2,643.38kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5775308800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3947.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy_pro\WWW\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\ThinkPHP\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001497s ] mysql:host=127.0.0.1;port=3306;dbname=hx190918_video;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hx190918_bofan` [ RunTime:0.001320s ]
+[ sql ] [ SQL ] SELECT * FROM `hx190918_bofan` WHERE  `id` = 5 [ RunTime:0.000702s ]
+---------------------------------------------------------------
+[ 2020-06-19T10:58:44+08:00 ] 0.0.0.0 GET localhost/ThinkPHP/public/index/index/user.html
+[运行时间：0.105187s] [吞吐率：9.51req/s] [内存消耗：2,872.30kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5775308800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ThinkPHP/public/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3947.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->user[ D:\phpstudy_pro\WWW\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\ThinkPHP\public/../application/index\view\index\user.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003210s ] mysql:host=127.0.0.1;port=3306;dbname=hx190918_video;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hx190918_bofan` [ RunTime:0.001593s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hx190918_bofan` WHERE  `id` <> 0 LIMIT 1 [ RunTime:0.001004s ]
+[ sql ] [ SQL ] SELECT * FROM `hx190918_bofan` WHERE  `id` <> 0 LIMIT 0,3 [ RunTime:0.000591s ]
+---------------------------------------------------------------
+[ 2020-06-19T10:58:44+08:00 ] 0.0.0.0 POST localhost/ThinkPHP/public/index/index/search.html
+[运行时间：0.063431s] [吞吐率：15.77req/s] [内存消耗：2,535.75kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5775308800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ThinkPHP/public/index/index/user.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3947.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '12',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'pnum' => '1',
+  'text' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->search[ D:\phpstudy_pro\WWW\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008926s ] mysql:host=127.0.0.1;port=3306;dbname=hx190918_video;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hx190918_bofan` [ RunTime:0.002067s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hx190918_bofan` WHERE  `bofan_videoName` LIKE '%%' LIMIT 1 [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT * FROM `hx190918_bofan` WHERE  `bofan_videoName` LIKE '%%' LIMIT 0,3 [ RunTime:0.001210s ]
+---------------------------------------------------------------
+[ 2020-06-19T10:58:46+08:00 ] 0.0.0.0 POST localhost/ThinkPHP/public/index/index/search.html
+[运行时间：0.051765s] [吞吐率：19.32req/s] [内存消耗：2,535.73kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5775308800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ThinkPHP/public/index/index/user.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3947.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '12',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'pnum' => '2',
+  'text' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->search[ D:\phpstudy_pro\WWW\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013651s ] mysql:host=127.0.0.1;port=3306;dbname=hx190918_video;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hx190918_bofan` [ RunTime:0.001608s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hx190918_bofan` WHERE  `bofan_videoName` LIKE '%%' LIMIT 1 [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT * FROM `hx190918_bofan` WHERE  `bofan_videoName` LIKE '%%' LIMIT 3,3 [ RunTime:0.000584s ]
+---------------------------------------------------------------
+[ 2020-06-19T10:58:47+08:00 ] 0.0.0.0 POST localhost/ThinkPHP/public/index/index/search.html
+[运行时间：0.057855s] [吞吐率：17.28req/s] [内存消耗：2,535.73kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5775308800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ThinkPHP/public/index/index/user.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3947.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '12',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'pnum' => '3',
+  'text' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->search[ D:\phpstudy_pro\WWW\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012879s ] mysql:host=127.0.0.1;port=3306;dbname=hx190918_video;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hx190918_bofan` [ RunTime:0.001713s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hx190918_bofan` WHERE  `bofan_videoName` LIKE '%%' LIMIT 1 [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT * FROM `hx190918_bofan` WHERE  `bofan_videoName` LIKE '%%' LIMIT 6,3 [ RunTime:0.000532s ]
+---------------------------------------------------------------
+[ 2020-06-19T10:58:47+08:00 ] 0.0.0.0 POST localhost/ThinkPHP/public/index/index/search.html
+[运行时间：0.048326s] [吞吐率：20.69req/s] [内存消耗：2,535.73kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5775308800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ThinkPHP/public/index/index/user.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3947.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '12',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'pnum' => '4',
+  'text' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->search[ D:\phpstudy_pro\WWW\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013773s ] mysql:host=127.0.0.1;port=3306;dbname=hx190918_video;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hx190918_bofan` [ RunTime:0.001473s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hx190918_bofan` WHERE  `bofan_videoName` LIKE '%%' LIMIT 1 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT * FROM `hx190918_bofan` WHERE  `bofan_videoName` LIKE '%%' LIMIT 9,3 [ RunTime:0.000593s ]
+---------------------------------------------------------------
+[ 2020-06-19T10:58:48+08:00 ] 0.0.0.0 POST localhost/ThinkPHP/public/index/index/search.html
+[运行时间：0.047020s] [吞吐率：21.27req/s] [内存消耗：2,535.72kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5775308800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ThinkPHP/public/index/index/user.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3947.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '12',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'pnum' => '5',
+  'text' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->search[ D:\phpstudy_pro\WWW\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014372s ] mysql:host=127.0.0.1;port=3306;dbname=hx190918_video;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hx190918_bofan` [ RunTime:0.001635s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hx190918_bofan` WHERE  `bofan_videoName` LIKE '%%' LIMIT 1 [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `hx190918_bofan` WHERE  `bofan_videoName` LIKE '%%' LIMIT 12,3 [ RunTime:0.000603s ]
+---------------------------------------------------------------
+[ 2020-06-19T10:58:49+08:00 ] 0.0.0.0 POST localhost/ThinkPHP/public/index/index/search.html
+[运行时间：0.053595s] [吞吐率：18.66req/s] [内存消耗：2,535.73kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5775308800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ThinkPHP/public/index/index/user.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3947.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '12',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'pnum' => '4',
+  'text' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->search[ D:\phpstudy_pro\WWW\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023747s ] mysql:host=127.0.0.1;port=3306;dbname=hx190918_video;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hx190918_bofan` [ RunTime:0.001567s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hx190918_bofan` WHERE  `bofan_videoName` LIKE '%%' LIMIT 1 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT * FROM `hx190918_bofan` WHERE  `bofan_videoName` LIKE '%%' LIMIT 9,3 [ RunTime:0.000596s ]
+---------------------------------------------------------------
+[ 2020-06-19T10:58:49+08:00 ] 0.0.0.0 POST localhost/ThinkPHP/public/index/index/search.html
+[运行时间：0.041809s] [吞吐率：23.92req/s] [内存消耗：2,535.73kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5775308800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ThinkPHP/public/index/index/user.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3947.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '12',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'pnum' => '3',
+  'text' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->search[ D:\phpstudy_pro\WWW\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013469s ] mysql:host=127.0.0.1;port=3306;dbname=hx190918_video;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hx190918_bofan` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hx190918_bofan` WHERE  `bofan_videoName` LIKE '%%' LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `hx190918_bofan` WHERE  `bofan_videoName` LIKE '%%' LIMIT 6,3 [ RunTime:0.000418s ]
+---------------------------------------------------------------
+[ 2020-06-19T10:58:49+08:00 ] 0.0.0.0 POST localhost/ThinkPHP/public/index/index/search.html
+[运行时间：0.047971s] [吞吐率：20.85req/s] [内存消耗：2,535.73kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5775308800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ThinkPHP/public/index/index/user.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3947.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '12',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'pnum' => '2',
+  'text' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->search[ D:\phpstudy_pro\WWW\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009007s ] mysql:host=127.0.0.1;port=3306;dbname=hx190918_video;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hx190918_bofan` [ RunTime:0.001641s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hx190918_bofan` WHERE  `bofan_videoName` LIKE '%%' LIMIT 1 [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SELECT * FROM `hx190918_bofan` WHERE  `bofan_videoName` LIKE '%%' LIMIT 3,3 [ RunTime:0.000591s ]

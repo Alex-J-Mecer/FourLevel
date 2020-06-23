@@ -1,0 +1,15 @@
+#UserApp {
+    border: 1px solid #dadada;
+}
+
+.pagination {
+    width: 50%;
+    height: 30px;
+    list-style: none;
+    line-height: 30px;
+}
+
+.pagination li {
+    float: left;
+    margin: 3px;
+}
